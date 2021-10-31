@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.nav{
+    color: white; 
+    list-style: none;     
+    background-color:hsl(203, 17%, 25%);  
+    border-bottom: 3px solid hsl(320, 36%, 49%); 
+    font-size: 1.5rem;  
+    padding: 0.75rem; 
+    display: flex; 
+     
+}
+
+.head span{
+     color: hsl(320, 36%, 49%);  
+}
+
+.nav a{
+    font-size: 1rem;  
+    text-decoration: none;  
+    color: white;  
+    padding: 4px; 
+    
+}
+
+
+
+.head{
+    margin-right: auto;  
+    font-size: 1.5rem;  
+    font-weight: bold; 
+}
+
+
+
+
+main{
+    width: 100%; 
+    height: 400px; 
+    color: white;  
+    background-image: url(./images/showcase.jpg);  
+    background-repeat: no-repeat;  
+    background-size: cover;   
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    line-height: 4rem;
+    background-position: center; 
+     
+}
+
+main h1{
+    font-size: 3rem;  
+}
+
+main p{
+    font-size: 1.3rem;  
+}
+
+#mail-input{
+    height: 5rem;  
+    padding: 1rem; 
+    display: flex;   
+    justify-content: space-between;   
+    background-color:hsl(203, 17%, 25%);   
+    color: white;  
+    align-items: center;
+}    
+
+.section-right{
+    width: 14%;  
+   
+}
+
+form{
+    display: flex;  
+}
+
+.btn{
+    color: white;  
+    background-color: hsl(13, 82%, 51%);  
+    border: 8px solid hsl(13, 82%, 51%);  
+    width: 5rem; 
+}
+
+.mail{
+    width: 68%;  
+    padding-left: 10px;  
+}
+
+#main-1{
+    display: flex;  
+    padding: 2rem;  
+}
+
+.logo-html,
+.logo-css, 
+.logo-brush{
+    text-align: center;  
+}
+
+#main-1 img{
+    width: 90px;  
+}
+
+#copyright{
+    color: white;  
+    display: flex;   
+    flex-direction: column;    
+    background-color:hsl(203, 17%, 25%); 
+    padding: 2.3rem;  
+    align-items: center;
+}
+
+
+
+#about-main{
+    background-color: rgb(244,244,244); 
+    display: flex;  
+    padding: 20px 30px 365px 40px;  
+}
+
+.about{
+    width: 170%;  
+    padding-right: 40px;  
+}
+
+.about-header, 
+.paragraph{
+    padding-bottom: 20px;  
+}
+
+.paragraph-2{
+    background-color: hsl(203, 17%, 25%);  
+    color: white;  
+    padding: 10px 10px;  
+}
+
+#about-main__2{
+    padding-left: 100px;  
+}
+
+.we-do{
+    background-color: rgb(53,66,74);
+    color: white;
+}
+
+
+
+
+#services-main{
+    display: flex;  
+    background-color: rgb(244,244,244);   
+    padding: 20px 30px 40px 40px;   
+}   
+
+.services{
+    width: 150%;   
+    padding-right: 40px;  
+}
+
+.services-head{
+    padding-bottom: 20px;  
+}
+
+.services-main__1, .services-main__2, .services-main__3{
+    border: 1px solid lightgrey;
+    background-color:rgb(230,230,230);  
+    padding: 45px;  
+    margin-bottom: 8px;  
+}
+
+.design-header,
+.maintenance-header, 
+.hosting-header{
+    padding-bottom: 15px;   
+}
+
+.design-paragraph,
+.maintenance-paragraph, 
+.hosting-paragraph{
+    padding-bottom: 10px;   
+}
+
+
+.services-main__4{
+    color: white;
+    width: 45%; 
+    display: flex;  
+    flex-direction: column;   
+    background-color: rgb(53,66,74);  
+    margin-left: 50px; 
+    padding: 20px 50px 90px 10px;    
+    height: 50%;  
+}
+
+.get-head{
+    padding-bottom: 25px;  
+}
+
+#name, 
+#mail{
+    padding: 5px;  
+    margin-bottom: 5px;  
+}
+
+#message{
+    margin-bottom: 10px;  
+}
+
+#submit{
+    width: 70px;  
+    background-color: #E8491D;  
+    color: white; 
+    border: none;  
+    padding: 12px 10px;  
+}
+
+.paragraph-3{  
+    padding: 20px 30px 30px 40px;
+}
+
+.about-header__2{
+    padding-top: 10px;
+}
